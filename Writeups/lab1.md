@@ -8,8 +8,8 @@ SELECT * FROM products WHERE category = 'Gifts' AND released = 1
 ![access](Images/l1step-1.png)
 ## Step 2 : Check Gifts 
 ![check gifts](Images/l1step-2.png)
-# When we explore gifts section there is only three released product.
-# Let us try to check if there are any unreleased product
+- When we explore gifts section there is only three released product.
+- Let us try to check if there are any unreleased product
 ## Use Burp Suite to intercept and modify the request that sets the product category filter.OR modify URL and resubmit request.
 
 ## first attempt
@@ -30,5 +30,5 @@ https://0a9900d4035784a1801abc1a00fb0066.web-security-academy.net/filter?categor
 ```
 ![attempting](Images/l1step-last.png)
 
--- Application displays more than 4 unreleased products.
--- double hyphen(--)  is used to comment out or ignore  what is written after hyphen which ignored the filter released product=1 and displays all the product.
+- Application displays more than 4 unreleased products.
+- double hyphen(--)  is used to comment out or ignore  what is written after hyphen which ignored the filter released product=1 and displays all the product.
